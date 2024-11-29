@@ -1,0 +1,223 @@
+body {
+          display:block;
+          overflow-x: hidden;
+          font-family:sans-serif
+      }
+
+      nav {
+          background-color: rgb(255, 0, 132);
+
+          
+      }
+      .bg-body-tertiary {
+          --bs-bg-opacity: 1;
+          background-color: rgb(255, 0, 132) !important;
+          
+      }
+
+      .navbar-brand img {
+          max-height: 90px;
+          padding-left: 10px;
+          padding-right: 50px;
+      }
+      *root{
+        --bs-navbar-brand-color: rgb(255, 234, 0)
+
+      }
+      .navbar-brand {
+          font-size: 24px;
+          font-weight: 900;
+          color: var(--bs-navbar-brand-color);
+      }
+
+      nav ul li a {
+          color: rgb(255, 85, 85);
+          
+          
+      }
+
+      nav ul li a:hover {
+          color: rgb(255, 234, 0) ;
+      }
+
+      #hero {
+          background: url();
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-color: #f9e628;
+          
+          
+          
+      }
+
+      section {
+          padding-top: 30px;
+          padding-bottom: 30px;
+      }
+
+      #hero .row  {
+          margin-top: 150px;
+          
+      }
+
+      .row p {
+          text-align: center;
+      }
+
+      #hero .card {
+          background-color: rgb(255, 0, 132);
+          color: rgb(255, 234, 0);
+        
+      }
+
+
+      #Hero .btn {
+          background-color: rgb(255, 0, 132);
+          flex: content;
+          display: block; 
+          margin: 20px auto; 
+      }   
+          
+
+
+      section h1 {
+          text-transform: uppercase;
+          font-weight: 900;
+          color: rgb(255, 0, 132);
+          text-align: center;
+          margin-bottom: 20px;
+          
+
+      }
+
+      section p {
+          font-size: 16px;
+          font-weight: 300;
+
+      }
+
+      button {
+          margin-top: 85px;
+          max-width: 50%;
+          border-radius: 50px !important;
+      }
+
+      #hero .col {
+          justify-content: center;
+          flex-direction: column;
+          display: flex;
+
+      }
+
+      #hero .img-col {
+          justify-content: flex-end;
+          margin-top: 100px;
+          opacity: .0;
+      }
+
+      #hero img {
+          max-width: 100% !important;
+          height: auto; 
+      }
+
+      #hero .card {
+          margin-top: 100px;
+          box-shadow: 11px 7px 16px rgb(156, 148, 8);
+          border: 0;
+          text-align: center;
+          margin-top: 20px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+      }
+
+
+
+      #hero h4 {
+          font-weight: lighter;
+      }
+
+      #hero .icon {
+          width: 150px;
+          height: 150px;
+          margin-bottom: 20px;
+      }
+
+
+      .custom-card-container .card {
+          border: 1px solid #dee2e6; 
+          border-radius: 5px; 
+          transition: transform 0.3s; 
+      }
+
+      .custom-card-container .card:hover {
+          transform: scale(1.05); 
+      }
+
+      .custom-card-container .card-title {
+          font-size: 45px; 
+          color: rgb(255, 234, 0); 
+      }
+
+      .custom-card-container .editable-card-text {
+          color: #81003e; 
+      }
+
+      .custom-card-container .btn-primary {
+          background-color: #000000; 
+          border-color: rgb(255, 234, 0); 
+      }
+
+      .custom-card-container .btn-primary:hover {
+          background-color: #0056b3; 
+          border-color: #0056b3; 
+      }
+
+      .btn {
+          transition: background-color 0.3s ease; 
+      }
+
+      .btn:hover {
+          background-color: #007bff; 
+          color: white; 
+      }
+
+      #contact {
+          text-align: center;
+          background-color: rgb(255, 0, 132);
+          color: white;
+    
+      }
+
+      #contact .container {
+          padding-top: 50px;
+          padding-bottom: 50px;
+      }
+
+      #contact h1 {
+          text-align: center;
+          color: white;
+      }
+
+      .navbar-nav {
+          display: flex; 
+          justify-content: flex-end; 
+          width: 100%; 
+      }
+
+      .nav-item {
+          margin-left: 20px; 
+      }
+
+      .navbar-toggler {
+         border-radius: 20px;
+      }
+
+      .navbar-nav .nav-link {
+        color: rgb(255, 234, 0); /* Replace with your desired color */
+    }
+    
+    .navbar-item.nav-link.active {
+        color: rgb(255, 234, 0); /* Color for the active link */
+    }
+    
+    
