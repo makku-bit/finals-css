@@ -8,7 +8,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
     // Check if the credentials are correct
     if (email === "go@gmail.com" && password === "gogo12345") {
         // Redirect to the main website
-        window.location.href = "homepage.html";
+        window.location.href = "./homepage.html";
     } else {
         // Display an error message
         document.getElementById('error-message').innerText = "Invalid email or password.";
