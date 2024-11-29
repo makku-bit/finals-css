@@ -71,9 +71,6 @@ nav ul li a:hover {
     color: #ffff00; /* Replace with your desired color */
 }
 
-.navbar-nav .nav-link.active a{
-    color: #000000; /* Color for the active link */
-}
 
 
 
