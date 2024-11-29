@@ -213,11 +213,11 @@ body {
       }
 
       .navbar-nav .nav-link {
-        color: rgb(255, 234, 0); /* Replace with your desired color */
+        color: rgb(255, 234, 0);
     }
     
     .navbar-item.nav-link.active {
-        color: rgb(255, 234, 0); /* Color for the active link */
+        color: rgb(255, 234, 0); 
     }
     
     
