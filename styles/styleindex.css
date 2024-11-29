@@ -62,7 +62,7 @@ nav ul li a:hover {
 
 
 #hero {
-    background: url(/props/Bg.main.jpg);
+    background: url(../props/Bg.main.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #f9e628;
